@@ -1,0 +1,17 @@
+{
+  "name": "ng-todo-demo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ryan B <ryan.bliton@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ryan-b-writin/ng-todo-demo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
