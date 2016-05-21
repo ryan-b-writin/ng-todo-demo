@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>to do list</title>
   <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body ng-app="TodoApp" ng-controller="NavCtrl">
   <nav class="navbar navbar-default">
@@ -29,7 +29,11 @@
     </div><!-- /.container-fluid -->
   </nav>
   <div ng-controller="TodoCtrl">
+    <div class="col-xs-6 col-xs-offset-3">
+    <button class="col-xs-6 btn btn-success" ng-click="newItem()">New Item</button>
+    <button class="col-xs-6 btn btn-info" ng-click="allItem()">All Items</button>
     <h1>Todo List</h1>
+    <h1>New Todo</h1>
   <div>
   
   <script type="text/javascript" src="lib/bower_components/jquery/dist/jquery.min.js"></script>
