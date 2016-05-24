@@ -3,7 +3,7 @@
 <button class ="btn btn-info">Edit</button>
 
 <h2>Assigned to: {{selectedItem.assignedTo}}</h2>
-<h2>Finished? {{selectedItem.isCompleted}}</h2>
+<h2>Finished? {{(selectedItem.isCompleted ? "yes" : "no")}}</h2>
 <h2>Urgency: {{selectedItem.urgency}}</h2>
 <h2>Dependencies: {{selectedItem.dependencies}}</h2>
 <h2>Location: {{selectedItem.location}}</h2>
