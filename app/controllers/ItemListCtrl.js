@@ -12,12 +12,5 @@ app.controller("ItemListCtrl", function( $scope, $http, itemStorage){
           $scope.items = itemCollection;
         })
       })
-
-
-      // $http.delete(`https://to-do-app-hello.firebaseio.com/items/${itemId}.json`)
-      // .success(function(response){
-      //   $scope.items=[];
-      //   getItems();
-      // })
     }
 });
